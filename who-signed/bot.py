@@ -1,3 +1,4 @@
+
 """
 Bot
 """
@@ -70,8 +71,10 @@ class Bot:
         """
         Method to  get photo with telegram api
         :param photo_id:  of user's photo
-        :return: opens requested image
+        :return: photo_path, opens requested image
         """
         photo_path = self.get_photo_path(photo_id)
-        photo_url = self.make_api_url(photo_path)
-        return Image.open(requests.get(photo_url, stream=True).raw)
+        print(photo_path)
+        photo_url = f'https://api.telegram.org/file/bot{self.token}/{photo_path}'
+        print(photo_url)
+        return photo_path, Image.open(requests.get(photo_url, stream=True).raw)
