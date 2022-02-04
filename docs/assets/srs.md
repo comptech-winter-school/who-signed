@@ -8,7 +8,7 @@
  
 ## Основания для разработки
  
-Основанием для разработки настоящего технического задания является документ [«Видение» (Vision)](docs/assets/vision.md), 
+Основанием для разработки настоящего технического задания является документ [«Видение» (Vision)](https://github.com/comptech-winter-school/who-signed/tree/main/docs/assets/vision.md), 
 составленный в рамках проекта [«Кто подписал?»](https://github.com/comptech-winter-school/who-signed/tree/main) зимней школы [CompTech School 2022](https://comptechschool.com/).
  
 ## Назначение разработки
