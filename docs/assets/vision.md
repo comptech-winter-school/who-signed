@@ -92,25 +92,7 @@
 
 ### 6.1. Применяемые стандарты
 
-    - albumentations 1.1.0
-    - Flask 2.0.2
-    - keras 2.8.0
-    - Keras-Preprocessing 1.1.2
-    - matplotlib 3.5.1
-    - notebook 5.3.1
-    - numpy 1.22.1
-    - pandas 1.4.0
-    - pandas-datareader 0.9.0
-    - pathlib 1.0.1
-    - Pillow 9.0.1
     - Python 3.9.9
-    - pyngrok 5.1.0
-    - requests 2.26.0
-    - scikit-learn 1.0.2
-    - scipy 1.4.1
-    - sklearn-pandas 1.8.0
-    - torch 1.10.2
-    - torchvision 0.11.3
 
 ### 6.2. Системные требования
 
