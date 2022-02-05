@@ -74,7 +74,5 @@ class Bot:
         :return: photo_path, opens requested image
         """
         photo_path = self.get_photo_path(photo_id)
-        print(photo_path)
         photo_url = f'https://api.telegram.org/file/bot{self.token}/{photo_path}'
-        print(photo_url)
         return photo_path, Image.open(requests.get(photo_url, stream=True).raw)
